@@ -5,7 +5,7 @@ describe(" Prueba en 06-deses-obj ", () => {
   test("usContext debe retornar ", () => {
     const key = "Tadeo";
     const age = 31;
-    const useContexto = usContext(key, age);
+    const useContexto = usContext({ clave: key, edad: age });
 
     expect(useContexto).toEqual({
       nombreClave: key,
