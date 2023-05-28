@@ -11,8 +11,9 @@ export const FirstApp = ({ title, subTitle, name }) => {
   return (
     //esto es un fragmento, sirve para utilizar dos elementos sin tener la necesidad de poner un div
     <>
-      <h1>{title}</h1>
+      <h1 data-testid="test-title">{title}</h1>
       {/* <h1>{getSaludo()}</h1> */}
+      <p>{subTitle}</p>
       <p>{subTitle}</p>
       <p>{name}</p>
     </>

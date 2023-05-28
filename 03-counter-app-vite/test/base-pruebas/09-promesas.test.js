@@ -1,4 +1,5 @@
 import { getHeroeByIdAsync } from "../../src/base-pruebas/09-promesas";
+import { expect, describe, test } from "@jest/globals";
 
 describe("Pruebas en 09-promesas", () => {
   test("getHeroeByIdAsync debe de retornar un héroe", (done) => {
@@ -28,3 +29,5 @@ describe("Pruebas en 09-promesas", () => {
       });
   });
 });
+
+//TODO: YO CREO QUE ESTO NO FUNCIONA POR QUE SIMPLEMENTE NO HAY UN HEROE QUE BUSCAR, NO ESTA LA BASE DE DATOS :P
