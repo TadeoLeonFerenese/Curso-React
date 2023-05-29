@@ -1,5 +1,6 @@
 import { getHeroeByIdAsync } from "../../src/base-pruebas/09-promesas";
 import { expect, describe, test } from "@jest/globals";
+import { heroes } from "../../src/data/heroes";
 
 describe("Pruebas en 09-promesas", () => {
   test("getHeroeByIdAsync debe de retornar un héroe", (done) => {
